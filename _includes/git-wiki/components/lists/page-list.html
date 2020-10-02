@@ -3,7 +3,8 @@
 	{% include {{ site.inc_before_page_list }} %}
 	{% endif %}
 
-	<span class="page-list-title">문서 {% if (site.show_wiki_pages_limit >= 1 %} (최근 {{site.show_wiki_pages_limit }} 갱신됨) {% endif %}:</span>
+	<!--
+	<span class="page-list-title">최근 문서 {% if (site.show_wiki_pages_limit >= 1 %} (최근 {{site.show_wiki_pages_limit }} 갱신됨) {% endif %}:</span>
 	<ul class="page-list">
 		{% assign numPages=0 %}
 		{% assign items = site.html_pages | sort: 'date' %}
@@ -21,6 +22,7 @@
 
 		{% endfor %}
 	</ul>
+-->
 
 	{% if site.inc_after_page_list %}
 	{% include {{ site.inc_after_page_list }} %}
