@@ -3,6 +3,7 @@ title: "왕초보 위키"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
 baseurl: ""
+url: "https://yoounhk.github.io/" # the base hostname & protocol for your site
 # (string) Description of your wiki
 description: "왕초보 개발자의 왕초보 위키"
 # (boolean) Enable/disable wiki page list in sidebar
