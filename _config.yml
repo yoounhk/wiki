@@ -3,7 +3,7 @@ title: "위키 산수유"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
 baseurl: ""
-url: "https://yoounhk.github.io/" # the base hostname & protocol for your site
+url: "https://yoounhk.github.io" # the base hostname & protocol for your site
 # (string) Description of your wiki
 description: ""
 # (boolean) Enable/disable wiki page list in sidebar
@@ -78,24 +78,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "lux"
- -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "lux"
- -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "lux"
- -
-    scope:
-      path: "blog"
-    values:
-      layout: "lux"
-      sitemap: false
 sass:
     style: compressed
 plugins:
