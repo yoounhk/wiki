@@ -92,9 +92,10 @@ defaults:
       layout: "lux"
  -
     scope:
-      path: blog
+      path: "blog"
     values:
       layout: "lux"
+      sitemap: false
 sass:
     style: compressed
 plugins:
