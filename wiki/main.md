@@ -7,7 +7,7 @@ redirect_from: "/"
 {% for page in site.pages %}
   <article>
     <h2>
-      <a href="{{ page.url }}">
+      <a href="/wiki{{ page.url }}">
         {{ page.title }}
       </a>
     </h2>
